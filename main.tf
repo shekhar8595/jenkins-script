@@ -1,5 +1,5 @@
 resource "google_compute_instance" "example-vm" {
-  name         = "devops-jenkins-webhook-freestyle-setup2"
+  name         = "devops-jenkins-webhook-freestyle-setup100"
   machine_type = "e2-medium"  # Choose an appropriate machine type
   zone         = var.zone  # Specify the zone
 
