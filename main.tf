@@ -1,5 +1,5 @@
 resource "google_compute_instance" "example-vm" {
-  name         = "devops-vm-instance"
+  name         = "devops-vm-instance-update"
   machine_type = "e2-medium"  # Choose an appropriate machine type
   zone         = var.zone  # Specify the zone
 
