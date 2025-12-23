@@ -1,5 +1,5 @@
 resource "google_compute_instance" "example-vm" {
-  name         = "devops-jenkins-test-webhook-2"
+  name         = "devops-jenkins-webhook-test-self"
   machine_type = "e2-medium"  # Choose an appropriate machine type
   zone         = var.zone  # Specify the zone
 
