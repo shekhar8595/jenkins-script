@@ -1,5 +1,5 @@
 resource "google_compute_instance" "example-vm" {
-  name         = "devops-new-jenkins-setup-webhook-check"
+  name         = "devops-new-jenkins-setup-webhook-check-blue-ocean"
   machine_type = "e2-medium"  # Choose an appropriate machine type
   zone         = var.zone  # Specify the zone
 
